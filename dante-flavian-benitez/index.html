@@ -9,7 +9,9 @@
     </head>
     <body>
         <header>
-            <img src="" alt="" class="logo" />
+            <span class="group">
+                Grupo 4
+            </span>
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
@@ -17,188 +19,216 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <article class="body-bg-img">
-                <img
-                    src="./img/bg-img.webp"
-                    alt="Logotipo de Google con un escritorio con computadora detrás sin color, con pedazos de carbón en el escritorio"
-                />
-            </article>
-            <article>
-                <h1 id="title">Carbon: ¿El sucesor de C++?</h1>
-                <p>
-                    C++ es un lenguaje de propósito general versátil y
-                    omnipresente, con más de 40 años. Provee funcionalidades de
-                    bajo nivel, además de la posibilidad de implementar
-                    abstracciones útiles casi sin ningún coste en el
-                    rendimiento. Soporta orientación a objetos, a
-                    procedimientos, y programación genérica. Su gran biblioteca
-                    estándar contiene abstracciones muy utilizadas como
-                    contenedores (<code>vector</code>, <code>map</code>,
-                    <code>set</code>) y algoritmos útiles.
-                </p>
-                <h2 id="problems">Carbon, ¿qué problemas resuelve?</h2>
-                <p>
-                    Según el
-                    <a
-                        href="https://github.com/carbon-language/carbon-lang"
-                        target="_blank"
-                        >repositorio oficial de Carbon</a
-                    >,
-                </p>
-                <blockquote>
-                    «C++ sigue siendo el lenguaje dominante en áreas que
-                    requieren del máximo rendimiento posible (...). Sin embargo,
-                    sus posibilidades de mejorar y satisfacer las necesidades de
-                    los programadores se ve reducida (...) no en pequeña parte
-                    por la deuda técnica [(technical debt)] acumulada durante
-                    años (...)».
-                </blockquote>
-                <p>
-                    Esto es, la retrocompatibilidad que se desea mantener para
-                    con el lenguaje se ha vuelto un obstáculo en su mejora
-                    incremental.
-                </p>
-                <p>
-                    La solución propuesta por Carbon es evitar heredar esta
-                    deuda, con un lenguaje de mayor expresividad, una sintaxis
-                    más consistente y características en general más modernas.
-                    Su objetivo es establecerse como una alternativa a C++, y
-                    que, al mantener interoperabilidad con él, pueda ser
-                    adoptado gradualmente y utilizado en proyectos.
-                </p>
-                <p>En concreto, pretende:</p>
-                <ul>
-                    <li>Igualar el rendimiento de C++</li>
-                    <li>
-                        Mantener una interoperabilidad cómoda y bidireccional
-                        con su código
-                    </li>
-                    <li>
-                        Contar con una curva de aprendizaje suave. de relativa
-                        familiaridad para quienes han desarrollado en C++
-                    </li>
-                    <li>Alcanzar una expresividad comparable y</li>
-                    <li>
-                        Hacer posible la migración escalable de un lenguaje a
-                        otro
-                    </li>
-                </ul>
-                <h2 id="syntax">La sintaxis de Carbon</h2>
-                <picture>
-                    <img
-                        src="./img/example.svg"
-                        alt="Ejemplo de código escrito en Carbon"
-                    />
-                    <figcaption>
-                        <i>Snippet</i> de código escrito en Carbon donde se
-                        pueden apreciar algunas de las características de su
-                        sintaxis: la anotación de tipos o sus palabras claves
-                    </figcaption>
-                </picture>
-                <p>
-                    La siguiente es una lista no exhaustiva de algunas
-                    características sintácticas de Carbon:
-                </p>
-                <ul>
-                    <li>
-                        <em>Palabras claves</em>: <code>fn</code> para declarar
-                        funciones y <code>var</code> para variables. Las
-                        anotaciones de tipo se colocan luego de los
-                        identificadores y separados por dos puntos, al igual que
-                        en Rust
-                    </li>
-                    <li>
-                        Las funciones no están habilitadas para modificar los
-                        parámetros que se le pasan
-                    </li>
-                    <li>
-                        Los punteros permiten tener acceso indirecto a la
-                        memoria y la mutabilidad
-                    </li>
-                    <li>Los miembros de una clase son públicos por defecto</li>
-                    <li>Los tipos genéricos son también comprobados</li>
-                </ul>
-
-                <h2 id="conclusion">Conclusión</h2>
-                <p>
-                    Aunque Carbon se proponga ser un sucesor de C++, el equipo
-                    que está detrás admite abiertamente que si utilizar otros
-                    lenguajes modernos como Rust o Go cumple con las necesidades
-                    actuales de programadores de C++, entonces éstos son
-                    preferibles
-                </p>
-                <p>
-                    Carbon es de código abierto, lo que amplia el rango de
-                    contribuciones que puedan hacerse en el incipiente lenguaje.
-                    En comparación, las decisiones centralizadas para con C++
-                    son más rígidas y se concentran más en no romper la
-                    retrocompatibilidad que en proveer cambios a mejor.
-                </p>
-                <p>
-                    La opinión general es optimista en cuanto a Carbon, pero se
-                    desconfía de la posibilidad de que reemplace a C++. Aún así,
-                    resulta interesante ver propuestas nuevas y diferentes que
-                    ya han empezado a ponerse en marcha.
-                </p>
-            </article>
-            <aside>
+        <article class="presentation">
+            <img src="./img/bg-img.webp" alt="" />
+        </article>
+        <div class="grid-container">
+            <main>
+                <article>
+                    <section>
+                    <div class="title">
+                        <span>Programación</span>
+                        <h1 id="title">Carbon: ¿El sucesor de C++?</h1>
+                    </div>
+                        <p>
+                            C++ es un lenguaje de propósito general versátil y
+                            omnipresente, con más de 40 años. Provee funcionalidades
+                            de bajo nivel, además de la posibilidad de implementar
+                            abstracciones útiles casi sin ningún coste en el
+                            rendimiento. Soporta orientación a objetos, a
+                            procedimientos, y programación genérica. Su gran
+                            biblioteca estándar contiene abstracciones muy
+                            utilizadas como contenedores (<code>vector</code>,
+                            <code>map</code>, <code>set</code>) y algoritmos útiles.
+                        </p>
+                    </section>
+                    <section>
+                        <h2 id="problems">Carbon, ¿qué problemas resuelve?</h2>
+                        <p>
+                            Según el
+                            <a
+                                href="https://github.com/carbon-language/carbon-lang"
+                                target="_blank"
+                                >repositorio oficial de Carbon</a
+                            >,
+                        </p>
+                        <blockquote>
+                            C++ sigue siendo el lenguaje dominante en áreas que
+                            requieren del máximo rendimiento posible (...). Sin
+                            embargo, sus posibilidades de mejorar y satisfacer
+                            las necesidades de los programadores se ve reducida
+                            (...) no en pequeña parte por la deuda técnica
+                            [(<i>technical debt</i>)] acumulada durante años (...).
+                        </blockquote>
+                        <p>
+                            Esto es, la retrocompatibilidad que se desea
+                            mantener para con el lenguaje se ha vuelto un
+                            obstáculo en su mejora incremental.
+                        </p>
+                        <p>
+                            La solución propuesta por Carbon es evitar heredar
+                            esta deuda, con un lenguaje de mayor expresividad,
+                            una sintaxis más consistente y características en
+                            general más modernas. Su objetivo es establecerse
+                            como una alternativa a C++, y que, al mantener
+                            interoperabilidad con él, pueda ser adoptado
+                            gradualmente y utilizado en proyectos.
+                        </p>
+                        <p>En concreto, pretende:</p>
+                        <ul>
+                            <li>Igualar el rendimiento de C++</li>
+                            <li>
+                                Mantener una interoperabilidad cómoda y
+                                bidireccional con su código
+                            </li>
+                            <li>
+                                Contar con una curva de aprendizaje suave. de
+                                relativa familiaridad para quienes han
+                                desarrollado en C++
+                            </li>
+                            <li>Alcanzar una expresividad comparable y</li>
+                            <li>
+                                Hacer posible la migración escalable de un
+                                lenguaje a otro
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="section-accent">
+                        <h2 id="syntax">La sintaxis de Carbon</h2>
+                        <picture>
+                            <img
+                                src="./img/example.svg"
+                                alt="Ejemplo de código escrito en Carbon"
+                            />
+                            <figcaption>
+                                <i>Snippet</i> de código escrito en Carbon donde
+                                se pueden apreciar algunas de las
+                                características de su sintaxis: la anotación de
+                                tipos o sus palabras claves
+                            </figcaption>
+                        </picture>
+                        <p>
+                            La siguiente es una lista no exhaustiva de algunas
+                            características sintácticas de Carbon:
+                        </p>
+                        <ul>
+                            <li>
+                                <em>Palabras claves</em>: <code>fn</code> para
+                                declarar funciones y <code>var</code> para
+                                variables. Las anotaciones de tipo se colocan
+                                luego de los identificadores y separados por dos
+                                puntos, al igual que en Rust
+                            </li>
+                            <li>
+                                Las funciones no están habilitadas para
+                                modificar los parámetros que se le pasan
+                            </li>
+                            <li>
+                                Los punteros permiten tener acceso indirecto a
+                                la memoria y la mutabilidad
+                            </li>
+                            <li>
+                                Los miembros de una clase son públicos por
+                                defecto
+                            </li>
+                            <li>Los tipos genéricos son también comprobados</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2 id="conclusion">Conclusión</h2>
+                        <p>
+                            Aunque Carbon se proponga ser un sucesor de C++, el
+                            equipo que está detrás admite abiertamente que si
+                            utilizar otros lenguajes modernos como Rust o Go
+                            cumple con las necesidades actuales de programadores
+                            de C++, entonces éstos son preferibles
+                        </p>
+                        <p>
+                            Carbon es de código abierto, lo que amplia el rango
+                            de contribuciones que puedan hacerse en el
+                            incipiente lenguaje. En comparación, las decisiones
+                            centralizadas para con C++ son más rígidas y se
+                            concentran más en no romper la retrocompatibilidad
+                            que en proveer cambios a mejor.
+                        </p>
+                        <p>
+                            La opinión general es optimista en cuanto a Carbon,
+                            pero se desconfía de la posibilidad de que reemplace
+                            a C++. Aún así, resulta interesante ver propuestas
+                            nuevas y diferentes que ya han empezado a ponerse en
+                            marcha.
+                        </p>
+                    </section>
+                </article>
+                <hr />
+                <footer>
+                    <picture class="author">
+                        <img
+                            src="./img/profile.png"
+                            alt="Foto de perfil minimalista con recuadros beige"
+                        />
+                        <figcaption>
+                            <address class="align-center">
+                                <span
+                                    ><a href="mailto:benitezdante123@gmail.com"
+                                        >Benitez, Dante Flavian</a
+                                    ></span
+                                >
+                                <a href="https://github.com/danteBenitez" target="_blank">
+                                    <img class="profile-social" src="./img/github-icon.png" alt="">
+                                </a>
+                                <a href="mailto:benitezdante@gmail.com">
+                                    <img class="profile-social" src="./img/gmail-icon.png" alt="">
+                                </a>
+                            </address>
+                            <p>
+                                Estudiante de Tecnicatura en Desarrollo de
+                                <i>Software</i> multiplataforma
+                            </p>
+                            <span
+                                >Publicado el:
+                                <time datetime="2023-04-21"
+                                    >18 de abril de 2023</time
+                                ></span
+                            >
+                        </figcaption>
+                    </picture>
+                </footer>
+            </main>
+            <aside class="table-of-contents">
+                <p>Tabla de contenidos:</p>
                 <nav>
                     <ul>
-                        <li>
+                        <li class="level-1">
                             <a href="#title">Carbon: ¿El sucesor de C++</a>
                         </li>
-                        <li>
+                        <li class="level-2">
                             <a href="#problems"
                                 >Carbon, ¿qué problemas resuelve?</a
                             >
                         </li>
-                        <li>
+                        <li class="level-2">
                             <a href="#syntax">La sintaxis de Carbon</a>
                         </li>
-                        <li>
+                        <li class="level-1">
                             <a href="#conclusion">Conclusión</a>
                         </li>
                     </ul>
                 </nav>
             </aside>
-            <footer>
-                <picture>
-                    <img
-                        src="./img/profile.png"
-                        alt="Foto de perfil minimalista con recuadros beige"
-                    />
-                    <figcaption>
-                        <address>
-                            <span
-                                ><a href="mailto:benitezdante123@gmail.com"
-                                    >Benitez, Dante Flavian</a
-                                ></span
-                            >
-                        </address>
-                        <p>
-                            Estudiante de Tecnicatura en Desarrollo de
-                            <i>Software</i> multiplataforma
-                        </p>
-                        <span
-                            >Publicado el:
-                            <time datetime="2023-04-21"
-                                >18 de abril de 2023</time
-                            ></span
-                        >
-                    </figcaption>
-                </picture>
+            </div>
+            <footer class="body-footer">
+                <p>© 2023</p>
+                <p class="group">
+                    Grupo 4
+                </p>
+                <nav class="social-links">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/CristianCommunity/Grupo-4" target="_blank"><img src="./img/github-dark-icon.png" alt="Repositorio en GitHub" /></a>
+                        </li>
+                    </ul>
+                </nav>
             </footer>
-        </main>
-        <footer>
-            <p>© 2023</p>
-            <nav class="social-links">
-                <ul>
-                    <li>
-                        <img src="" alt="Instagram page" />
-                    </li>
-                </ul>
-            </nav>
-        </footer>
     </body>
 </html>
