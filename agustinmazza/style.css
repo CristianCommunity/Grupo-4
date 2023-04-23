@@ -7,6 +7,7 @@ html {
 h3 {
     text-decoration: underline;
     font-size: larger;
+    text-shadow: 1px 1px 1px red;
 }
 
 h4 {
@@ -15,9 +16,36 @@ h4 {
     border: solid black;
 }
 
-
 .img {
     border: solid 5px white;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    background-color: grey;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.nav {
+    background-color: gray;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links {
+    padding: 14px 20px;
+    align-items: center;
 }
 
 .titulo {
@@ -31,7 +59,6 @@ h4 {
 }
 
 .cuerpo {
-
     display: flex;
     flex-direction: row;
     flex-wrap: 70%;
@@ -58,8 +85,18 @@ p {
     font-style: italic;
 }
 
+article {
+    flex: 70%;
+    text-align: justify;
+}
+
+article img {
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
 .aside {
-    flex-wrap: 30%;
+    flex: 30%;
     border-radius: 10px;
     background-color: white;
     border: solid white;
