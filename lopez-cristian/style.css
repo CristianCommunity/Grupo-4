@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(236, 230, 230);
+    
+
+}
+
+header{
+    background: url(./imagenes/Multiverso1.png)
+}
+
+header{
+    flex-direction: column;
+    display: flex;
+    height: 450px;
+    background-size: cover;
+
+}
+
+.logo{
+    height: 10rem;
+    width: 10rem;
+
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    grid-column: auto;
+    padding: 3rem 5rem;
+    margin: 20px 200px;
+    border: solid 2px rgb(180, 165, 180);
+    background-color: rgb(180, 165, 180);
+}
+
+em{
+    color: rgb(53, 6, 97);
+    font-weight:bold;
+}
+
+    
+
+nav ul {
+    list-style: none;
+	margin: 0;
+	padding: 1rem;
+	display: flex;
+	justify-content:space-evenly;
+}
+
+nav ul li {
+	margin: 0 0.1rem
+}
+
+
+nav ul li a {
+    justify-content: end;
+	color: #fff;
+	text-decoration: none;
+    font-size: 2rem;
+
+}
+
+nav ul li a:hover{
+    background-color:rgb(53, 6, 97) ;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+section{
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(208, 196, 219);
+    color: black;
+    text-align: justify;
+    border: solid 1px rgb(53, 6, 97) 
+    
+}
+
+h3{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 10rem;
+    text-align: center;
+    padding:0;
+    margin: 0;
+    justify-content: center;
+}
+
+input{
+    background-color: #fff;
+    color: black;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:hover{
+    background-color:rgb(53, 6, 97) ;
+    color: #fff;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p a:hover{
+    color: rgb(53, 6, 97) ;
+}
+
+p{
+    font-size: 20px;
+}
