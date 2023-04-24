@@ -1,0 +1,45 @@
+body, head {
+    background-color: rgba(81, 72, 74, 0.99);
+    
+}
+
+.sup1 {
+    background-color: darkolivegreen ;
+    color: black;
+    display: flex;
+    padding: 0;
+    border: double black ;
+    flex-direction: column;
+}
+
+#h1 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;    
+justify-content: center;
+}
+
+footer {
+    background-color: darkolivegreen;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.P1 {
+    border:  dotted;
+    text-align: center;
+    
+}
+
+.P2 {
+    border:  dotted;
+    text-align: center;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+a {
+
+}
