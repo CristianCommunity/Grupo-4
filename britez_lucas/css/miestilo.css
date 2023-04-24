@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+#contenedor {
+  background-color: black;
+  height: 900px;
+}
+#cabecera {
+  background-color: black;
+}
+#marca {
+  background-color: black;
+}
+#botonera {
+  background-color: black;
+}
+#contenido {
+  background-color: black;
+}
+#pie {
+  background-color: black;
+}
+#empresa {
+  background-color: black;
+  border-color: white;
+}
+.gris {
+  background-color: #7a7d80;
+}
+.negro {
+  background-color: black;
+  color: white;
+}
+.bt_negro {
+  background-color: black;
+  color: white;
+}
+.bt_negro:hover {
+  background-color: #b610cc;
+  color: black;
+}
+.lila {
+  background-color: #b610cc;
+  color: black;
+}
