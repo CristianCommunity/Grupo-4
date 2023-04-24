@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0%;
+  font-family: "Mifuentepersonalizada", sans-serif;
+  background-color: black;
+}
+@font-face {
+  font-family: "Mifuentepersonalizada";
+  src: url("Strjmono.ttf");
+}
+.text {
+  color: gold;
+}
+.centrado {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: white;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 50px;
+}
+.video-sw {
+  display: flex;
+  justify-content: center;
+}
+.footerfinal {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  clear: both;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: purple;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
