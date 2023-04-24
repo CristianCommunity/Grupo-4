@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Raleway';
+    font-stretch: normal; 
+    font-style: normal; 
+    font-weight: 400 700;
+    src: url(./Grupo-4/dante-flavian-benitez/fonts/Raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+
+:root {
+    --clr-primary-dark: #000000;
+    --clr-secondary-light: #f0edeb;
+    --clr-tertiary: #e9e5dee3;
+    --clr-accent: #426e86;
+
+    --gradient: linear-gradient(90deg, hsla(0, 0%, 0%, 1), 0%);
+
+    --fnt-family-general: 'Raleway', Helvetica, sans-serif;
+    --fnt-family-heading: 'Montserrat', sans-serif;
+
+    font-size: 16px;
+    font-family: var(--fnt-family-general);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient();
+}
+
+header {
+    position: sticky;
+    background-color: var(--clr-primary-dark);
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.3rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: var(--clr-secondary-light);
+}
+
+main {
+    margin: 1rem;
+}
+
+.group {
+    color: var(--clr-secondary-light);
+    font-size: 1.7rem;
+}
+
+.body-footer {
+    justify-self: end;
+    padding-inline: 2rem;
+    padding-block: 0.2rem;
+    color: var(--clr-secondary-light);
+    background-color: var(--clr-primary-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-footer ul {
+    list-style: none;
+}
+
+.social-links img {
+    max-width: 2.5rem;
+}
+
+.page-list ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.card {
+    padding-inline: 1rem;
+    padding-block: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 150px;
+    font-size: 2.5rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: var(--clr-accent);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 300ms ease-in;
+    background-image: 
+        linear-gradient(0deg, var(--clr-primary-dark), transparent), 
+        var(--card-bg);
+}
+
+.card:hover {
+    height: 270px;
+    background-image: 
+        linear-gradient(0deg, var(--clr-primary-dark) , transparent), 
+        var(--card-bg);
+}
+
+.card p {
+    margin: 0;
+    line-height: 2.1rem;
+    font-weight: 700;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--clr-secondary-light);
+}
+
+
+.card span {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card-1 {
+    --card-bg: url(./page-imgs/carbon.webp);
+}
+
+.card-2 {
+    --card-bg: urL(./page-imgs/multiverso.jpg);
+}
+
+.card-3 {
+    --card-bg: url(./page-imgs/mario-bros.jpg);
+}
+
+.card-4 {
+    --card-bg: url(./page-imgs/yu-gi-oh.jpg);
+}
+
+.card-5 {
+    --card-bg: url(./page-imgs/star-wars.jpg);
+}
+
+.card-6 {
+    --card-bg: url(./page-imgs/tesla.webp)
+}
+
+.card-7 {
+    --card-bg: url(./page-imgs/pokedesign.jpg)
+}
+
+.card-8 {
+    --card-bg: url(./page-imgs/github.jpeg)
+}
+
+.card-9 {
+    --card-bg: url(./page-imgs/inteligencia-artificial.jpeg)
+}
