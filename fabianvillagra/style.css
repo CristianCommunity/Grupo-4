@@ -1,0 +1,109 @@
+header{
+font-size: 25px;
+background-image: url(tesla-model-s-p100d.jpg);
+background-repeat: no-repeat;
+background-size: 95% 100%;
+margin: 5px;
+padding: 10px;
+text-align: center;
+
+}
+#navs{
+margin: solid;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+
+}
+.primernav{
+background-color: black;
+float: left;
+padding: 10px;
+}
+.segundonav{
+background-color: black;
+float: left;
+padding: 10px;
+}
+.tercernav{
+background-color: black;
+float: left;
+padding: 10px;
+}
+
+.articulo{
+    background-color: gray;
+    margin: 5px;
+    padding: 10px;
+    display: grid;
+    float: left;
+
+}
+.uno{
+ background-color: beige;
+    padding: 10px;
+
+}
+
+.dos{
+    
+    background-color: beige;
+
+     padding: 10px;
+
+
+}
+
+.tres{
+    background-color: beige;
+    padding: 10px;
+    
+}
+h2{
+    text-align: center;
+}
+.aside{
+    display: flex;
+    justify-content: end;
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: 95%;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+}
+#principal{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    float: left;
+}
+.contacto{
+    float: left;
+    display: flex;
+    
+}
+.ubicacion{
+    float: left;
+    display: flex;
+}
+.noticia1{
+float: left;
+    display: flex;
+    justify-content: end;
+}
+.noticia2{
+    float: left;
+      display: flex;
+      justify-content: end;
+    }
+    .noticia3{
+        float: left;
+        display: flex;
+        justify-content: end;
+        }
+footer{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
