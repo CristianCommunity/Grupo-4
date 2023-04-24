@@ -101,3 +101,9 @@ float: left;
         display: flex;
         justify-content: end;
         }
+footer{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
