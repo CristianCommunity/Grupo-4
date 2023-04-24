@@ -1,4 +1,4 @@
-cler# Actividad: Creación de repositorios y páginas web en equipo
+# Actividad: Creación de repositorios y páginas web en equipo
 
 **Objetivos:**
 - Fomentar la colaboración y el trabajo en equipo en un entorno digital.
