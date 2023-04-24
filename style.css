@@ -167,3 +167,7 @@ main {
 .card-9 {
     --card-bg: url(./page-imgs/inteligencia-artificial.jpeg)
 }
+
+.card-10 {
+    --card-bg: url(./page-imgs/ia.jpeg)
+}
